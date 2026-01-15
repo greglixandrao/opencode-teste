@@ -9,3 +9,25 @@ ENV/
 .venv
 .DS_Store
 *.pyc
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/.terraform.tfstate.lock.info
+terraform/crash.log
+terraform/terraform.tfstate.backup
+
+# Terraform variables (opcional - remova se quiser commitar)
+# terraform/terraform.tfvars
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
